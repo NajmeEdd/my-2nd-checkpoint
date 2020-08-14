@@ -1,44 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
   <body>
     <header>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="contact.html">Contact</a>
+      <nav class="the-nav-bar">
+        <a class="link" href="index.html">Home</a>
+        <a class="link" href="about.html">About</a>
+        <a class="link" href="contact.html">Contact</a>
       </nav>
     </header>
     <main>
-        <ul>
-            <li>tel:+21695100907</li>
-            <li>fax:+21673111222</li>
-            <li>e-mail:nejme.edd@gmail.com</li>
-        </ul>
-        <form action="">
-<label for="text">First name</label>
-<input type="text"> 
-<br>
-<label for="text">Last name</label>
-<input type="text">
-<br>
-<label for="text">e-mail</label>
-<input type="email">
-<br>
-<label >Type your message</label>
-<textarea name="type your message" id="" cols="10" rows="5"></textarea>
-        </form>
-        <a href="https://www.linkedin.com/in/najmeha/">linkedin</a>
-        <a href="https://github.com/NajmeEdd">github</a>
+      <ul>
+        <li>tel:+21695100907</li>
+        <li>fax:+21673111222</li>
+        <li>e-mail:nejme.edd@gmail.com</li>
+      </ul>
+      <form action="">
+        <label for="text">First name</label>
+        <input type="text" placeholder="first name " required />
+        <br />
+        <label for="text">Last name</label>
+        <input type="text" placeholder="last name " required />
+        <br />
+        <label for="text">e-mail</label>
+        <input type="email" placeholder="e-mail" />
+        <br />
+        <label>message</label>
+        <textarea
+          input
+          placeholder="Type your message"
+          name="message"
+          id=""
+          cols="10"
+          rows="5"
+        ></textarea>
+        <input type="submit" value="envoyer" />
+      </form>
+      <a href="https://www.linkedin.com/in/najmeha/">linkedin</a>
+      <a href="https://github.com/NajmeEdd">github</a>
     </main>
     <footer>
-        <hr>
-            <h5>ALL RIGHTS RESERVED</h5>
-        <h6>by Najmeddine Ha.</h6>
+      <hr />
+      <h5>ALL RIGHTS RESERVED ©</h5>
+      <h6>by Najmeddine Ha.</h6>
     </footer>
   </body>
 </html>
